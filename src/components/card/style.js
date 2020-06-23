@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 const Card = styled.div`
   background: url('${({ url }) => url}');
+  background-size: cover;
   position: relative;
   height: 300px;
   cursor: pointer;

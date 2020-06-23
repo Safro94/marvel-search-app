@@ -3,6 +3,8 @@ import styled from 'styled-components';
 const Header = styled.div`
   display: grid;
   grid-template-columns: 100px 2fr 0.5fr;
+  background: ${({ theme: { secondaryColor } }) => secondaryColor};
+  border-bottom: 1px solid #eee;
 `;
 
 const ImageContainer = styled.div`
