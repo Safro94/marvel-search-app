@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
 
-import styled, { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'styled-components';
 
 import Routes from '../../routes';
-import GlobalStyle from './globalStyle';
+import styles from './theme';
 
 export default () => {
-  const [theme, setTheme] = useState({ mode: 'light' });
+  const [theme, setTheme] = useState(styles.light);
 
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyle />
       <Routes />
     </ThemeProvider>
   );

@@ -4,6 +4,7 @@ import { device, size } from '../../../helpers/device';
 export default styled.div`
   width: 100%;
   max-width: 100%;
+  background: ${(props) => props.theme.primaryColor};
 
   @media ${device.tablet} {
     margin: 0 auto;
