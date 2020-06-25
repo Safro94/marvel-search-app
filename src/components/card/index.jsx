@@ -33,7 +33,7 @@ export default ({ character }) => {
         <Modal title={character.name} onClose={handleModalClose}>
           <ComicsContainer>
             {comics.map((comic) => (
-              <Comic comic={comic} />
+              <Comic comic={comic} key={comic.id} />
             ))}
           </ComicsContainer>
         </Modal>

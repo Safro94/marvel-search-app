@@ -1,61 +1,61 @@
 import React, { useEffect, useCallback } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import {
-  useApplication,
-  SET_FILTERED_CHARACTERS,
-  SET_SEARCH_VALUE,
-} from '../../hooks/application';
+import { useApplication, SET_CHARACTERS } from '../../hooks/application';
+
+import Service from '../../services/service';
 
 import Card from '../../components/card';
 
-import { Wrapper } from './style';
+import { Wrapper, H1 } from './style';
 
 export default () => {
-  const { filteredCharacters, characters, setApplication } = useApplication();
+  const { characters, setApplication } = useApplication();
   const location = useLocation();
 
-  const getFilteredCharacters = useCallback(() => {
+  const getUrlCharacter = useCallback(async () => {
     const params = new URLSearchParams(location.search);
     const character = params.get('character');
+    return character ? await Service.GetCharacterByExactName(character) : [];
+  }, [location.search]);
 
-    if (character) {
-      setApplication({
-        type: SET_SEARCH_VALUE,
-        value: character,
-      });
-    }
-  }, [location.search, setApplication]);
+  const getRandomChar = () => {
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-  const getRandomCharacter = useCallback(() => {
-    const randomCharacterIndex = Math.floor(
-      Math.random() * (characters.length - 1)
-    );
-    const filteredCharacters = characters[randomCharacterIndex];
+    return letters
+      .charAt(Math.floor(Math.random() * letters.length))
+      .toLowerCase();
+  };
 
-    setApplication({
-      type: SET_FILTERED_CHARACTERS,
-      value: [filteredCharacters],
-    });
-  }, [characters, setApplication]);
+  const getRandomCharacter = useCallback(async () => {
+    const letter = getRandomChar();
+    const characters = await Service.GetCharacters(letter);
+    return characters && characters.length > 0 ? [characters[0]] : [];
+  }, []);
 
   useEffect(() => {
-    if (characters && location) {
-      location.search ? getFilteredCharacters() : getRandomCharacter();
-    }
-  }, [
-    characters,
-    getFilteredCharacters,
-    getRandomCharacter,
-    location,
-    setApplication,
-  ]);
+    const getCharacters = async () => {
+      const characters = location.search
+        ? await getUrlCharacter()
+        : await getRandomCharacter();
+
+      setApplication({
+        type: SET_CHARACTERS,
+        value: characters,
+      });
+    };
+    getCharacters();
+  }, [getRandomCharacter, getUrlCharacter, location, setApplication]);
 
   return (
     <Wrapper>
-      {filteredCharacters &&
-        filteredCharacters.map((character) => (
-          <Card character={character} key={character.id} />
+      {characters &&
+        (characters.length > 0 ? (
+          characters.map((character) => (
+            <Card character={character} key={character.id} />
+          ))
+        ) : (
+          <H1>No se han encontrado resultados</H1>
         ))}
     </Wrapper>
   );

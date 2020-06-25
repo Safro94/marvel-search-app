@@ -1,9 +1,6 @@
 import React from 'react';
 
-import {
-  useApplication,
-  SET_FILTERED_CHARACTERS,
-} from '../../../hooks/application';
+import { useApplication, SET_CHARACTERS } from '../../../hooks/application';
 
 import Service from '../../../services/service';
 
@@ -16,18 +13,15 @@ export default () => {
     const getData = async () => {
       const name = e.target.value.toLowerCase();
       const characters = await Service.GetCharacters(name);
-      const newCharacters = characters.filter((character) =>
-        character.name.toLowerCase().includes(name)
-      );
-      if (newCharacters) {
+      if (characters) {
         setApplication({
-          type: SET_FILTERED_CHARACTERS,
-          value: newCharacters,
+          type: SET_CHARACTERS,
+          value: characters,
         });
       }
     };
     getData();
   };
 
-  return <Input onChange={filterCharacters} />;
+  return <Input onBlur={filterCharacters} placeholder="Buscar" />;
 };

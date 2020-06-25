@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { device } from '../../helpers/device';
 
-export const Wrapper = styled.div`
+const Wrapper = styled.div`
   padding: 20px 0;
   display: grid;
   grid-gap: 20px 0;
@@ -16,3 +16,10 @@ export const Wrapper = styled.div`
     grid-template-columns: repeat(4, 250px);
   }
 `;
+
+const H1 = styled.h1`
+  grid-column: span 4;
+  text-align: center;
+`;
+
+export { Wrapper, H1 };

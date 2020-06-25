@@ -10,11 +10,13 @@ export default ({ comic }) => {
       />
       <Information>
         <Title>{comic.title}</Title>
-        <Text
-          dangerouslySetInnerHTML={{
-            __html: `${comic.description.substr(0, 200)}...`,
-          }}
-        />
+        {comic.description && (
+          <Text
+            dangerouslySetInnerHTML={{
+              __html: `${comic.description.substr(0, 200)}...`,
+            }}
+          />
+        )}
       </Information>
     </Comic>
   );
