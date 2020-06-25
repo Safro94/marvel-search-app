@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Layout />  It should render OK 1`] = `
+<div>
+  <container>
+    <header />
+    <wrapper>
+      <routes />
+    </wrapper>
+  </container>
+</div>
+`;
