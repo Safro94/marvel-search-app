@@ -4918,20 +4918,6 @@ export default class Service {
               issn: '',
               format: 'Comic',
               pageCount: 0,
-              textObjects: [
-                {
-                  type: 'issue_preview_text',
-                  language: 'en-us',
-                  text:
-                    '"UNSTOPPABLE" PART 3 (OF 6)! Ord and his people of Breakworld lead the charge to take down the X-Men and S.W.O.R.D. And when this fight\'s over... Not everyone is coming back!  32 PGS./Rated T  ...$2.99',
-                },
-                {
-                  type: 'issue_solicit_text',
-                  language: 'en-us',
-                  text:
-                    '"UNSTOPPABLE" PART 3 (OF 6)!\r\nOrd and his people of Breakworld lead the charge to take down the X-Men and S.W.O.R.D. And when this fight\'s over... Not everyone is coming back! \r\n32 PGS./Rated T  ...$2.99',
-                },
-              ],
               resourceURI: 'http://gateway.marvel.com/v1/public/comics/6120',
               urls: [
                 {
@@ -4953,31 +4939,6 @@ export default class Service {
                   type: 'inAppLink',
                   url:
                     'https://applink.marvel.com/issue/7989?utm_campaign=apiRef&utm_source=75d603f88af04f5aebcb8bd8c7e5df52',
-                },
-              ],
-              series: {
-                resourceURI: 'http://gateway.marvel.com/v1/public/series/744',
-                name: 'Astonishing X-Men (2004 - 2013)',
-              },
-              variants: [
-                {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/5876',
-                  name: 'Astonishing X-Men (2004) #21 (Variant)',
-                },
-              ],
-              collections: [
-                {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/24514',
-                  name:
-                    'Astonishing X-Men by Joss Whedon & John Cassaday (Hardcover)',
-                },
-                {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/21422',
-                  name:
-                    'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
                 },
               ],
               collectedIssues: [],
@@ -5325,6 +5286,134 @@ export default class Service {
         },
       },
     };
+    return res && res.status === 200 ? res.data.data.results : [];
+  };
+
+  static GetComicById = async (id) => {
+    // const res = await axios().get(
+    //   `${process.env.REACT_APP_MARVEL_URL}/comics?ts=${process.env.REACT_APP_MARVEL_API_TS}&apikey=${process.env.REACT_APP_MARVEL_API_KEY}&hash=${process.env.REACT_APP_MARVEL_API_HASH}/${id}`
+    // );
+    const res = {
+      status: 200,
+      data: {
+        code: 200,
+        status: 'Ok',
+        copyright: '© 2020 MARVEL',
+        attributionText: 'Data provided by Marvel. © 2020 MARVEL',
+        attributionHTML:
+          '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
+        etag: 'a598e3bc79cb002acb5b949475c8e63e745f3c0c',
+        data: {
+          offset: 0,
+          limit: 20,
+          total: 1,
+          count: 1,
+          results: [
+            {
+              id: 70718,
+              digitalId: 51433,
+              title: 'The Amazing Spider-Man (2018) #22',
+              issueNumber: 22,
+              variantDescription: '',
+              description:
+                'HUNTED AFTERMATH! The fallout from “HUNTED” continues to loom, and much of Peter’s life is called into question. What is left of Spider-Man after living through the harrowing hunt?! ',
+              modified: '2019-05-14T14:53:53-0400',
+              isbn: '',
+              upc: '75960608936902211',
+              diamondCode: 'MAR190835',
+              ean: '',
+              issn: '0274-5232',
+              format: 'Comic',
+              pageCount: 40,
+              textObjects: [
+                {
+                  type: 'issue_solicit_text',
+                  language: 'en-us',
+                  text:
+                    'HUNTED AFTERMATH! The fallout from “HUNTED” continues to loom, and much of Peter’s life is called into question. What is left of Spider-Man after living through the harrowing hunt?! ',
+                },
+              ],
+              resourceURI: 'http://gateway.marvel.com/v1/public/comics/70718',
+              urls: [
+                {
+                  type: 'detail',
+                  url:
+                    'http://marvel.com/comics/issue/70718/the_amazing_spider-man_2018_22?utm_campaign=apiRef&utm_source=75d603f88af04f5aebcb8bd8c7e5df52',
+                },
+                {
+                  type: 'purchase',
+                  url:
+                    'http://comicstore.marvel.com/The-Amazing-Spider-Man-22/digital-comic/51433?utm_campaign=apiRef&utm_source=75d603f88af04f5aebcb8bd8c7e5df52',
+                },
+                {
+                  type: 'reader',
+                  url:
+                    'http://marvel.com/digitalcomics/view.htm?iid=51433&utm_campaign=apiRef&utm_source=75d603f88af04f5aebcb8bd8c7e5df52',
+                },
+                {
+                  type: 'inAppLink',
+                  url:
+                    'https://applink.marvel.com/issue/51433?utm_campaign=apiRef&utm_source=75d603f88af04f5aebcb8bd8c7e5df52',
+                },
+              ],
+              series: {
+                resourceURI: 'http://gateway.marvel.com/v1/public/series/24396',
+                name: 'The Amazing Spider-Man (2018 - Present)',
+              },
+              variants: [],
+              collections: [],
+              collectedIssues: [],
+              dates: [
+                {
+                  type: 'onsaleDate',
+                  date: '2019-05-29T00:00:00-0400',
+                },
+                {
+                  type: 'focDate',
+                  date: '2019-05-06T00:00:00-0400',
+                },
+                {
+                  type: 'unlimitedDate',
+                  date: '2019-12-02T00:00:00-0500',
+                },
+                {
+                  type: 'digitalPurchaseDate',
+                  date: '2019-05-29T00:00:00-0400',
+                },
+              ],
+              prices: [
+                {
+                  type: 'printPrice',
+                  price: 3.99,
+                },
+                {
+                  type: 'digitalPurchasePrice',
+                  price: 3.99,
+                },
+              ],
+              thumbnail: {
+                path:
+                  'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
+                extension: 'jpg',
+              },
+              images: [
+                {
+                  path:
+                    'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
+                  extension: 'jpg',
+                },
+                {
+                  path:
+                    'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/5c76cb249a7e3',
+                  extension: 'jpg',
+                },
+              ],
+            },
+          ],
+        },
+      },
+    };
+
     return res && res.status === 200 ? res.data.data.results : [];
   };
 }
