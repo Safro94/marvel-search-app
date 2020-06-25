@@ -21,4 +21,9 @@ const Text = styled.span`
   overflow-wrap: break-word;
 `;
 
-export { Card, TextWrapper, Text };
+const ComicsContainer = styled.div`
+  display: grid;
+  grid-gap: 15px 0;
+`;
+
+export { Card, TextWrapper, Text, ComicsContainer };
