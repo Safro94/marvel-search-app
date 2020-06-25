@@ -1,13 +1,19 @@
 import React from 'react';
 
+import Routes from '../../routes';
+
 import Header from '../../components/header';
 import Container from '../../components/shared/container';
 
-export default ({ children }) => {
+import { Wrapper } from './style';
+
+export default () => {
   return (
     <Container>
       <Header />
-      <div>{children}</div>
+      <Wrapper>
+        <Routes />
+      </Wrapper>
     </Container>
   );
 };

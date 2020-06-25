@@ -22,9 +22,7 @@ export default () => {
   const getRandomChar = () => {
     const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
-    return letters
-      .charAt(Math.floor(Math.random() * letters.length))
-      .toLowerCase();
+    return letters.charAt(Math.floor(Math.random() * letters.length)).toLowerCase();
   };
 
   const getRandomCharacter = useCallback(async () => {
@@ -35,9 +33,7 @@ export default () => {
 
   useEffect(() => {
     const getCharacters = async () => {
-      const characters = location.search
-        ? await getUrlCharacter()
-        : await getRandomCharacter();
+      const characters = location.search ? await getUrlCharacter() : await getRandomCharacter();
 
       setApplication({
         type: SET_CHARACTERS,
@@ -51,9 +47,7 @@ export default () => {
     <Wrapper>
       {characters &&
         (characters.length > 0 ? (
-          characters.map((character) => (
-            <Card character={character} key={character.id} />
-          ))
+          characters.map((character) => <Card character={character} key={character.id} />)
         ) : (
           <H1>No se han encontrado resultados</H1>
         ))}

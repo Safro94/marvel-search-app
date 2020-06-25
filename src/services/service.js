@@ -13,8 +13,7 @@ export default class Service {
         status: 'Ok',
         copyright: '© 2020 MARVEL',
         attributionText: 'Data provided by Marvel. © 2020 MARVEL',
-        attributionHTML:
-          '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
+        attributionHTML: '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
         etag: 'a34a99f0f193a1141fd92560b58e99cb3a4ac2b3',
         data: {
           offset: 0,
@@ -28,77 +27,60 @@ export default class Service {
               description: '',
               modified: '2014-04-29T14:18:17-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011334',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011334',
               comics: {
                 available: 12,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011334/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011334/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21366',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21366',
                     name: 'Avengers: The Initiative (2007) #14',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24571',
-                    name:
-                      'Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24571',
+                    name: 'Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21546',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21546',
                     name: 'Avengers: The Initiative (2007) #15',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21741',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21741',
                     name: 'Avengers: The Initiative (2007) #16',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21975',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21975',
                     name: 'Avengers: The Initiative (2007) #17',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/22299',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/22299',
                     name: 'Avengers: The Initiative (2007) #18',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/22300',
-                    name:
-                      'Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/22300',
+                    name: 'Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/22506',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/22506',
                     name: 'Avengers: The Initiative (2007) #19',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8500',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8500',
                     name: 'Deadpool (1997) #44',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/10223',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/10223',
                     name: 'Marvel Premiere (1972) #35',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/10224',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/10224',
                     name: 'Marvel Premiere (1972) #36',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/10225',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/10225',
                     name: 'Marvel Premiere (1972) #37',
                   },
                 ],
@@ -112,30 +94,24 @@ export default class Service {
                 "Rick Jones has been Hulk's best bud since day one, but now he's more than a friend...he's a teammate! Transformed by a Gamma energy explosion, A-Bomb's thick, armored skin is just as strong and powerful as it is blue. And when he curls into action, he uses it like a giant bowling ball of destruction! ",
               modified: '2013-09-18T15:54:04-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/20/5232158de5b16',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1017100',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1017100',
               comics: {
                 available: 3,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1017100/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1017100/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40632',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40632',
                     name: 'Hulk (2008) #53',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40630',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40630',
                     name: 'Hulk (2008) #54',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40628',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40628',
                     name: 'Hulk (2008) #55',
                   },
                 ],
@@ -145,121 +121,95 @@ export default class Service {
             {
               id: 1009144,
               name: 'A.I.M.',
-              description:
-                'AIM is a terrorist organization bent on destroying the world.',
+              description: 'AIM is a terrorist organization bent on destroying the world.',
               modified: '2013-10-17T14:41:30-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/20/52602f21f29ec',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1009144',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009144',
               comics: {
                 available: 49,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1009144/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1009144/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/36763',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/36763',
                     name: 'Ant-Man & the Wasp (2010) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17553',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17553',
                     name: 'Avengers (1998) #67',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7340',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7340',
                     name: 'Avengers (1963) #87',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/4214',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/4214',
                     name: 'Avengers and Power Pack Assemble! (2006) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/63217',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/63217',
                     name: 'Avengers and Power Pack (2017) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/63218',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/63218',
                     name: 'Avengers and Power Pack (2017) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/63219',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/63219',
                     name: 'Avengers and Power Pack (2017) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/63220',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/63220',
                     name: 'Avengers and Power Pack (2017) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/64790',
-                    name:
-                      'Avengers by Brian Michael Bendis: The Complete Collection Vol. 2 (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/64790',
+                    name: 'Avengers by Brian Michael Bendis: The Complete Collection Vol. 2 (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/1170',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/1170',
                     name: 'Avengers Vol. 2: Red Zone (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/1214',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/1214',
                     name: 'Avengers Vol. II: Red Zone (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12787',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12787',
                     name: 'Captain America (1998) #28',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7513',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7513',
                     name: 'Captain America (1968) #132',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7514',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7514',
                     name: 'Captain America (1968) #133',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/65466',
-                    name:
-                      'Captain America by Mark Waid, Ron Garney & Andy Kubert (Hardcover)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/65466',
+                    name: 'Captain America by Mark Waid, Ron Garney & Andy Kubert (Hardcover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20367',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20367',
                     name: 'Defenders (1972) #57',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/31068',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/31068',
                     name: 'Incredible Hulks (2010) #606 (VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/46168',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/46168',
                     name: 'Indestructible Hulk (2012) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/43944',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/43944',
                     name: 'Iron Man (2012) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/9544',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/9544',
                     name: 'Iron Man (1968) #295',
                   },
                 ],
@@ -272,85 +222,68 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1010699',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010699',
               comics: {
                 available: 14,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1010699/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1010699/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40776',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40776',
                     name: 'Dark Avengers (2012) #177',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40773',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40773',
                     name: 'Dark Avengers (2012) #179',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40774',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40774',
                     name: 'Dark Avengers (2012) #180',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40778',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40778',
                     name: 'Dark Avengers (2012) #181',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40787',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40787',
                     name: 'Dark Avengers (2012) #182',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40786',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40786',
                     name: 'Dark Avengers (2012) #183',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/38073',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/38073',
                     name: 'Hulk (2008) #43',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11910',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11910',
                     name: 'Universe X (2000) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11911',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11911',
                     name: 'Universe X (2000) #7',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11912',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11912',
                     name: 'Universe X (2000) #8',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11913',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11913',
                     name: 'Universe X (2000) #9',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11903',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11903',
                     name: 'Universe X (2000) #10',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11904',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11904',
                     name: 'Universe X (2000) #11',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/11905',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/11905',
                     name: 'Universe X (2000) #12',
                   },
                 ],
@@ -364,115 +297,92 @@ export default class Service {
                 'Formerly known as Emil Blonsky, a spy of Soviet Yugoslavian origin working for the KGB, the Abomination gained his powers after receiving a dose of gamma radiation similar to that which transformed Bruce Banner into the incredible Hulk.',
               modified: '2012-03-20T12:32:12-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/50/4ce18691cbf04',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1009146',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009146',
               comics: {
                 available: 53,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1009146/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1009146/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17547',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17547',
                     name: 'Avengers (1998) #61',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17548',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17548',
                     name: 'Avengers (1998) #62',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/1098',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/1098',
                     name: 'Avengers Vol. 1: World Trust (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8557',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8557',
                     name: 'Earth X (1999) #7',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/4241',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/4241',
                     name: 'Earth X (New (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20863',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20863',
                     name: 'Hulk (2008) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2499',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2499',
                     name: 'Hulk: Destruction (2005) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14424',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14424',
                     name: 'Hulk (1999) #24',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14425',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14425',
                     name: 'Hulk (1999) #25',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14428',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14428',
                     name: 'Hulk (1999) #28',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14450',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14450',
                     name: 'Hulk (1999) #50',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14451',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14451',
                     name: 'Hulk (1999) #51',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14453',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14453',
                     name: 'Hulk (1999) #53',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14454',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14454',
                     name: 'Hulk (1999) #54',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8948',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8948',
                     name: 'Incredible Hulk (1962) #137',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8982',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8982',
                     name: 'Incredible Hulk (1962) #171',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/9005',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/9005',
                     name: 'Incredible Hulk (1962) #194',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/9006',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/9006',
                     name: 'Incredible Hulk (1962) #195',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/9007',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/9007',
                     name: 'Incredible Hulk (1962) #196',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/9011',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/9011',
                     name: 'Incredible Hulk (1962) #200',
                   },
                 ],
@@ -485,25 +395,20 @@ export default class Service {
               description: '',
               modified: '2012-07-10T19:11:52-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1016823',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1016823',
               comics: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1016823/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1016823/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40638',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40638',
                     name: 'Hulk (2008) #50',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/15717',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/15717',
                     name: 'Ultimate X-Men (2000) #26',
                   },
                 ],
@@ -516,115 +421,92 @@ export default class Service {
               description: '',
               modified: '2013-10-24T14:32:08-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/1/b0/5269678709fb7',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1009148',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009148',
               comics: {
                 available: 91,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1009148/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1009148/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/43507',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/43507',
                     name: 'A+X (2012) #8',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7045',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7045',
                     name: 'Avengers (1963) #183',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7046',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7046',
                     name: 'Avengers (1963) #184',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/7142',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/7142',
                     name: 'Avengers (1963) #270',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/36481',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/36481',
                     name: 'Avengers Academy (2010) #16',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/36480',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/36480',
                     name: 'Avengers Academy (2010) #17',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/36479',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/36479',
                     name: 'Avengers Academy (2010) #18',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/36484',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/36484',
                     name: 'Avengers Academy (2010) #19',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17776',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17776',
                     name: 'Avengers Annual (1967) #20',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/63662',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/63662',
                     name: 'Black Bolt (2017) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/64278',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/64278',
                     name: 'Black Bolt (2017) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/66533',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/66533',
                     name: 'Black Bolt (2017) #11',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/65327',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/65327',
                     name: 'Black Bolt Vol. 1: Hard Time (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12783',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12783',
                     name: 'Captain America (1998) #24',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20427',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20427',
                     name: 'Dazzler (1981) #18',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20428',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20428',
                     name: 'Dazzler (1981) #19',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8499',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8499',
                     name: 'Deadpool (1997) #43',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/15541',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/15541',
                     name: 'Fantastic Four (1998) #22',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13151',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13151',
                     name: 'Fantastic Four (1961) #330',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/41433',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/41433',
                     name: 'Fear Itself (2010) #2 (3rd Printing Variant)',
                   },
                 ],
@@ -637,57 +519,45 @@ export default class Service {
               description: '',
               modified: '2014-04-29T14:10:43-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/30/535feab462a64',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/30/535feab462a64',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1009149',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009149',
               comics: {
                 available: 8,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1009149/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1009149/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13943',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13943',
                     name: 'Uncanny X-Men (1963) #402',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13945',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13945',
                     name: 'Uncanny X-Men (1963) #404',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13946',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13946',
                     name: 'Uncanny X-Men (1963) #405',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13947',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13947',
                     name: 'Uncanny X-Men (1963) #406',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13970',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13970',
                     name: 'Uncanny X-Men (1963) #429',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13972',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13972',
                     name: 'Uncanny X-Men (1963) #431',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12386',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12386',
                     name: 'X-Men: Alpha (1995) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2539',
-                    name:
-                      'X-Men: The Complete Age of Apocalypse Epic Book 2 (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2539',
+                    name: 'X-Men: The Complete Age of Apocalypse Epic Book 2 (Trade Paperback)',
                   },
                 ],
                 returned: 8,
@@ -699,32 +569,25 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/3/80/4c00358ec7548',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/80/4c00358ec7548',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1010903',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010903',
               comics: {
                 available: 3,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1010903/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1010903/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/18099',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/18099',
                     name: 'Weapon X (1995) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12386',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12386',
                     name: 'X-Men: Alpha (1995) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2539',
-                    name:
-                      'X-Men: The Complete Age of Apocalypse Epic Book 2 (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2539',
+                    name: 'X-Men: The Complete Age of Apocalypse Epic Book 2 (Trade Paperback)',
                   },
                 ],
                 returned: 3,
@@ -736,16 +599,13 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011266',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011266',
               comics: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011266/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011266/comics',
                 items: [],
                 returned: 0,
               },
@@ -757,117 +617,92 @@ export default class Service {
                 'Adam Warlock is an artificially created human who was born in a cocoon at a scientific complex called The Beehive.',
               modified: '2013-08-07T13:49:06-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/a/f0/5202887448860',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1010354',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010354',
               comics: {
                 available: 188,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1010354/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1010354/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/62151',
-                    name:
-                      'All-New Guardians of the Galaxy Vol. 3: Infinity Quest (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/62151',
+                    name: 'All-New Guardians of the Galaxy Vol. 3: Infinity Quest (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17271',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17271',
                     name: 'Annihilation: Conquest (2007) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17405',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17405',
                     name: 'Annihilation: Conquest (2007) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17645',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17645',
                     name: 'Annihilation: Conquest (2007) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20686',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20686',
                     name: 'Annihilation: Conquest (2007) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20885',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20885',
                     name: 'Annihilation: Conquest (2007) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21016',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21016',
                     name: 'Annihilation: Conquest (2007) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12412',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12412',
                     name: 'Avengers Forever (1998) #9',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/1033',
-                    name:
-                      'Avengers Legends Vol. I: Avengers Forever (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/1033',
+                    name: 'Avengers Legends Vol. I: Avengers Forever (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20731',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20731',
                     name: 'CLANDESTINE CLASSIC PREMIERE HC (Hardcover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20187',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20187',
                     name: 'Doctor Strange, Sorcerer Supreme (1988) #27',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20193',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20193',
                     name: 'Doctor Strange, Sorcerer Supreme (1988) #32',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/20197',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/20197',
                     name: 'Doctor Strange, Sorcerer Supreme (1988) #36',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8552',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8552',
                     name: 'Earth X (1999) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/8550',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/8550',
                     name: 'Earth X (1999) #11',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/4241',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/4241',
                     name: 'Earth X (New (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/12975',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/12975',
                     name: 'Fantastic Four (1961) #172',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/13195',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/13195',
                     name: 'Fantastic Four (1961) #370',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/25305',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/25305',
                     name: 'Guardians of the Galaxy (2008) #17',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/65547',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/65547',
                     name: 'All-New Guardians of the Galaxy (2017) #150',
                   },
                 ],
@@ -880,16 +715,13 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c0035c9c425d',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c0035c9c425d',
                 extension: 'gif',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1010846',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010846',
               comics: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1010846/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1010846/comics',
                 items: [],
                 returned: 0,
               },
@@ -900,101 +732,80 @@ export default class Service {
               description: '',
               modified: '2013-10-24T13:09:30-0400',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/4/60/52695285d6e7e',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/4/60/52695285d6e7e',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011297',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
               comics: {
                 available: 17,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011297/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011297/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5477',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5477',
                     name: 'Astonishing X-Men (2004) #19 (Variant)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/6120',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/6120',
                     name: 'Astonishing X-Men (2004) #21',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/6309',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/6309',
                     name: 'Astonishing X-Men (2004) #22',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/16119',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/16119',
                     name: 'Astonishing X-Men (2004) #23',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17353',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17353',
                     name: 'Astonishing X-Men (2004) #24',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24503',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24503',
                     name: 'Astonishing X-Men (2004) #32',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24504',
                     name: 'Astonishing X-Men (2004) #33',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/38318',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/38318',
                     name: 'Astonishing X-Men (2004) #38',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/38319',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/38319',
                     name: 'Astonishing X-Men (2004) #40',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/40024',
-                    name:
-                      'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/40024',
+                    name: 'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/45950',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/45950',
                     name: 'Cable and X-Force (2012) #8',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/39890',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/39890',
                     name: 'Heralds (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/26232',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/26232',
                     name: 'S.W.O.R.D. (2009) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/26233',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/26233',
                     name: 'S.W.O.R.D. (2009) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/26234',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/26234',
                     name: 'S.W.O.R.D. (2009) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/30518',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/30518',
                     name: 'S.W.O.R.D. (2009) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/61430',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/61430',
                     name: 'The Mighty Captain Marvel (2017) #5',
                   },
                 ],
@@ -1008,107 +819,85 @@ export default class Service {
                 "Originally a partner of the mind-altering assassin Black Swan, Nijo spied on Deadpool as part of the Swan's plan to exact revenge for Deadpool falsely taking credit for the Swan's assassination of the Four Winds crime family, which included Nijo's brother.",
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011031',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011031',
               comics: {
                 available: 18,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011031/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011031/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17702',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17702',
                     name: 'Agent X (2002) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17709',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17709',
                     name: 'Agent X (2002) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17710',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17710',
                     name: 'Agent X (2002) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17711',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17711',
                     name: 'Agent X (2002) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17712',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17712',
                     name: 'Agent X (2002) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17713',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17713',
                     name: 'Agent X (2002) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17714',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17714',
                     name: 'Agent X (2002) #7',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17715',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17715',
                     name: 'Agent X (2002) #8',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17716',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17716',
                     name: 'Agent X (2002) #9',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17703',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17703',
                     name: 'Agent X (2002) #10',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17704',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17704',
                     name: 'Agent X (2002) #11',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17705',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17705',
                     name: 'Agent X (2002) #12',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17706',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17706',
                     name: 'Agent X (2002) #13',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/17707',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/17707',
                     name: 'Agent X (2002) #14',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/394',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/394',
                     name: 'Agent X (2002) #15',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/1649',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/1649',
                     name: 'Cable & Deadpool (2004) #12',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21845',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21845',
                     name: 'Cable & Deadpool (2004) #46 (Zombie Variant)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5761',
-                    name:
-                      'Cable & Deadpool Vol. 2: The Burnt Offering (Trade Paperback)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5761',
+                    name: 'Cable & Deadpool Vol. 2: The Burnt Offering (Trade Paperback)',
                   },
                 ],
                 returned: 18,
@@ -1120,115 +909,92 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/f/60/4c0042121d790',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/f/60/4c0042121d790',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1009150',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009150',
               comics: {
                 available: 28,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1009150/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1009150/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/18082',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/18082',
                     name: 'Weapon X (2002) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/18092',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/18092',
                     name: 'Weapon X (2002) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/18074',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/18074',
                     name: 'Weapon X (2002) #12',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/246',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/246',
                     name: 'Weapon X (2002) #13',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2204',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2204',
                     name: 'Weapon X: Days of Future Now (2005) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2324',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2324',
                     name: 'Weapon X: Days of Future Now (2005) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2438',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2438',
                     name: 'Weapon X: Days of Future Now (2005) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/2439',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/2439',
                     name: 'Weapon X: Days of Future Now (2005) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/3016',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/3016',
                     name: 'Weapon X: Days of Future Now (2005) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/3357',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/3357',
                     name: 'Weapon X: Days of Future Now (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/18408',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/18408',
                     name: 'WEAPON X: THE DRAFT - AGENT ZERO 1 (2002) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14182',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14182',
                     name: 'Wolverine (1988) #60',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14183',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14183',
                     name: 'Wolverine (1988) #61',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14184',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14184',
                     name: 'Wolverine (1988) #62',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14185',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14185',
                     name: 'Wolverine (1988) #63',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14186',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14186',
                     name: 'Wolverine (1988) #64',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14189',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14189',
                     name: 'Wolverine (1988) #67',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14190',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14190',
                     name: 'Wolverine (1988) #68',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14211',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14211',
                     name: 'Wolverine (1988) #87',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/14107',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/14107',
                     name: 'Wolverine (1988) #163',
                   },
                 ],
@@ -1241,117 +1007,92 @@ export default class Service {
               description: '',
               modified: '2016-02-03T10:25:22-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/4ce18a834b7f5',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/4ce18a834b7f5',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011198',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011198',
               comics: {
                 available: 43,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011198/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011198/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/77001',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/77001',
                     name: 'Agents of Atlas (2019) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/23659',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/23659',
                     name: 'Agents of Atlas (2009) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/4801',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/4801',
                     name: 'Agents of Atlas (2006) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/23660',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/23660',
                     name: 'Agents of Atlas (2009) #1 (50/50 COVER)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5089',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5089',
                     name: 'Agents of Atlas (2006) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/23825',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/23825',
                     name: 'Agents of Atlas (2009) #2',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/27402',
-                    name:
-                      'Agents of Atlas (2009) #2 (BACHALO 2ND PRINTING VARIANT)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/27402',
+                    name: 'Agents of Atlas (2009) #2 (BACHALO 2ND PRINTING VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/23824',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/23824',
                     name: 'Agents of Atlas (2009) #2 (MCGUINNESS VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5241',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5241',
                     name: 'Agents of Atlas (2006) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24015',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24015',
                     name: 'Agents of Atlas (2009) #3',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24017',
-                    name:
-                      'Agents of Atlas (2009) #3 (Wolverine Art Appreciation Variant)',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24017',
+                    name: 'Agents of Atlas (2009) #3 (Wolverine Art Appreciation Variant)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24016',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24016',
                     name: 'Agents of Atlas (2009) #3 (MCGUINNESS VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24219',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24219',
                     name: 'Agents of Atlas (2009) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5404',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5404',
                     name: 'Agents of Atlas (2006) #4',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5665',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5665',
                     name: 'Agents of Atlas (2006) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24221',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24221',
                     name: 'Agents of Atlas (2009) #5',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24222',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24222',
                     name: 'Agents of Atlas (2009) #5 (MCGUINNESS VARIANT)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5842',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5842',
                     name: 'Agents of Atlas (2006) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24360',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24360',
                     name: 'Agents of Atlas (2009) #6',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/24361',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/24361',
                     name: 'Agents of Atlas (2009) #7',
                   },
                 ],
@@ -1364,16 +1105,13 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011175',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011175',
               comics: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011175/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011175/comics',
                 items: [],
                 returned: 0,
               },
@@ -1384,35 +1122,28 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011136',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011136',
               comics: {
                 available: 4,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011136/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011136/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/4108',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/4108',
                     name: 'Annihilation: Silver Surfer (2006) #1',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/5589',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/5589',
                     name: 'Heroes Reborn: Iron Man (Trade Paperback)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/16330',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/16330',
                     name: 'Iron Man (1996) #11',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/16331',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/16331',
                     name: 'Iron Man (1996) #12',
                   },
                 ],
@@ -1425,35 +1156,28 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/2/80/4c002f35c5215',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/80/4c002f35c5215',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1011176',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011176',
               comics: {
                 available: 4,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1011176/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1011176/comics',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21175',
                     name: 'Incredible Hercules (2008) #117',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21324',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21324',
                     name: 'Incredible Hercules (2008) #118',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21505',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21505',
                     name: 'Incredible Hercules (2008) #119',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/comics/21707',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/comics/21707',
                     name: 'Incredible Hercules (2008) #120',
                   },
                 ],
@@ -1466,16 +1190,13 @@ export default class Service {
               description: '',
               modified: '1969-12-31T19:00:00-0500',
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/70/4c0035adc7d3a',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/70/4c0035adc7d3a',
                 extension: 'jpg',
               },
-              resourceURI:
-                'http://gateway.marvel.com/v1/public/characters/1010870',
+              resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010870',
               comics: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/characters/1010870/comics',
+                collectionURI: 'http://gateway.marvel.com/v1/public/characters/1010870/comics',
                 items: [],
                 returned: 0,
               },
@@ -1645,8 +1366,7 @@ export default class Service {
         status: 'Ok',
         copyright: '© 2020 MARVEL',
         attributionText: 'Data provided by Marvel. © 2020 MARVEL',
-        attributionHTML:
-          '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
+        attributionHTML: '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
         etag: '196de7805e8cc68d7a8868273771ffafa5d11990',
         data: {
           offset: 0,
@@ -1737,49 +1457,41 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/6/90/591c9b3e3a069',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/90/591c9b3e3a069',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/90/591c9b3e3a069',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/90/591c9b3e3a069',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 5,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/61430/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/61430/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11841',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11841',
                     name: 'Sana Amanat',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12981',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12981',
                     name: 'Michael Garland',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12948',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12948',
                     name: 'Margaret Stohl',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12832',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12832',
                     name: 'Elizabeth Torque',
                     role: 'penciler (cover)',
                   },
@@ -1788,22 +1500,18 @@ export default class Service {
               },
               characters: {
                 available: 3,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/61430/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/61430/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1010338',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010338',
                     name: 'Captain Marvel (Carol Danvers)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011299',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011299',
                     name: 'Guardians of the Galaxy',
                   },
                 ],
@@ -1811,18 +1519,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/61430/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/61430/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/133289',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/133289',
                     name: 'cover from Captain Marvel (2016) #5',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/133290',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/133290',
                     name: 'story from Captain Marvel (2016) #5',
                     type: 'interiorStory',
                   },
@@ -1831,8 +1536,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/61430/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/61430/events',
                 items: [],
                 returned: 0,
               },
@@ -1890,10 +1594,8 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/47460',
-                  name:
-                    'Cable and X-Force (2012) #8 (X-&#8203;Men 50th Anniversary Variant)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/47460',
+                  name: 'Cable and X-Force (2012) #8 (X-&#8203;Men 50th Anniversary Variant)',
                 },
               ],
               collections: [],
@@ -1927,55 +1629,46 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5b2a5186398ed',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5b2a5186398ed',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5b2a5186398ed',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/c0/5b2a5186398ed',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/45950/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/45950/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11901',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11901',
                     name: 'Dennis "Hopeless" Hallum',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8504',
                     name: "Frank D'ARMATA",
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11737',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11737',
                     name: 'Daniel Ketchum',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4300',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
                     name: 'Nick Lowe',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11757',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11757',
                     name: 'Salvador Larroca',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8775',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8775',
                     name: 'Joe Sabino',
                     role: 'letterer',
                   },
@@ -1984,52 +1677,42 @@ export default class Service {
               },
               characters: {
                 available: 9,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/45950/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/45950/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1010366',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010366',
                     name: 'Boom Boom',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009214',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009214',
                     name: 'Cable',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009277',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009277',
                     name: 'Domino',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009309',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009309',
                     name: 'Forge',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011428',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011428',
                     name: 'Hope Summers',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011086',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011086',
                     name: 'Nemesis',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009724',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009724',
                     name: 'X-Force',
                   },
                 ],
@@ -2037,18 +1720,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/45950/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/45950/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/103418',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/103418',
                     name: 'Cable and X-Force (2012) #8',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/103419',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/103419',
                     name: 'story from Cable and X-Force (2012) #8',
                     type: 'interiorStory',
                   },
@@ -2057,8 +1737,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/45950/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/45950/events',
                 items: [],
                 returned: 0,
               },
@@ -2066,8 +1745,7 @@ export default class Service {
             {
               id: 40024,
               digitalId: 0,
-              title:
-                'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
+              title: 'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
               issueNumber: 40,
               variantDescription: 'I Am Captain America Variant',
               description:
@@ -2102,8 +1780,7 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/38319',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/38319',
                   name: 'Astonishing X-Men (2004) #40',
                 },
               ],
@@ -2126,43 +1803,36 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/4/00/4e298227dc944',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/4/00/4e298227dc944',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/4/00/4e298227dc944',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/4/00/4e298227dc944',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 4,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/40024/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/40024/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/239',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/239',
                     name: 'Juan Bobillo',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11765',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11765',
                     name: 'Christos Gage',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4300',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
                     name: 'Nick Lowe',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/649',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/649',
                     name: 'Ed Mcguinness',
                     role: 'penciller (cover)',
                   },
@@ -2171,17 +1841,14 @@ export default class Service {
               },
               characters: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/40024/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/40024/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -2189,18 +1856,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/40024/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/40024/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/90818',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/90818',
                     name: 'Cover #90818',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/90819',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/90819',
                     name: 'Interior #90819',
                     type: 'interiorStory',
                   },
@@ -2209,8 +1873,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/40024/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/40024/events',
                 items: [],
                 returned: 0,
               },
@@ -2264,10 +1927,8 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/40024',
-                  name:
-                    'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/40024',
+                  name: 'Astonishing X-Men (2004) #40 (I Am Captain America Variant)',
                 },
               ],
               collections: [],
@@ -2293,61 +1954,51 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/00/56e6e5a2abd14',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/00/56e6e5a2abd14',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/00/56e6e5a2abd14',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/00/56e6e5a2abd14',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 7,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38319/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38319/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/239',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/239',
                     name: 'Juan Bobillo',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11765',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11765',
                     name: 'Christos Gage',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11757',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11757',
                     name: 'Salvador Larroca',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4300',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
                     name: 'Nick Lowe',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/240',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/240',
                     name: 'Marcelo Sosa',
                     role: 'inker',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/500',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/500',
                     name: 'Christopher Sotomayor',
                     role: 'colorist',
                   },
@@ -2356,42 +2007,34 @@ export default class Service {
               },
               characters: {
                 available: 7,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38319/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38319/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009629',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009629',
                     name: 'Storm',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -2399,18 +2042,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38319/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38319/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/90853',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/90853',
                     name: ' Interior  Astonishing X-Men (2004) #40',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/90944',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/90944',
                     name: 'ASTONISHING X-MEN (2004) #40',
                     type: 'cover',
                   },
@@ -2419,8 +2059,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38319/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38319/events',
                 items: [],
                 returned: 0,
               },
@@ -2514,55 +2153,46 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/56e6e4c095cdf',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/56e6e4c095cdf',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/56e6e4c095cdf',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/e0/56e6e4c095cdf',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38318/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38318/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/239',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/239',
                     name: 'Juan Bobillo',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11765',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11765',
                     name: 'Christos Gage',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4300',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
                     name: 'Nick Lowe',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/240',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/240',
                     name: 'Marcelo Sosa',
                     role: 'inker',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/500',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/500',
                     name: 'Christopher Sotomayor',
                     role: 'colorist',
                   },
@@ -2571,57 +2201,46 @@ export default class Service {
               },
               characters: {
                 available: 10,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38318/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38318/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011298',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011298',
                     name: 'Armor (Hisako Ichiki)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009629',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009629',
                     name: 'Storm',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -2629,18 +2248,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38318/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38318/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/89830',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/89830',
                     name: 'ASTONISHING X-MEN (2004) #38',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/89900',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/89900',
                     name: 'Astonishing X-Men (2004) #38',
                     type: 'interiorStory',
                   },
@@ -2649,8 +2265,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/38318/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/38318/events',
                 items: [],
                 returned: 0,
               },
@@ -2693,8 +2308,7 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/36732',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/36732',
                   name: 'Heralds (Hardcover)',
                 },
               ],
@@ -2717,208 +2331,168 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/3/e0/4d8b89d033853',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/e0/4d8b89d033853',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/e0/4d8b89d033853',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/e0/4d8b89d033853',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/f0/4c7c657bae7e7',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/f0/4c7c657bae7e7',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/e0/4c7c564ab7a20',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/e0/4c7c564ab7a20',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/40/4c2247a2d0877',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/40/4c2247a2d0877',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/20/4c22479faba35',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/20/4c22479faba35',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4c22479ca2179',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4c22479ca2179',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4c2247999abe4',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4c2247999abe4',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4c224788f2b7f',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/e0/4c224788f2b7f',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/40/4c224785a5b44',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/40/4c224785a5b44',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/2/e0/4c19024564c0d',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/e0/4c19024564c0d',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/2/a0/4c19024254dc0',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/a0/4c19024254dc0',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4c19023f457f4',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4c19023f457f4',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4c19023c32dfc',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4c19023c32dfc',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c1902392eb2c',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4c1902392eb2c',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/5/d0/4c1902363e4ca',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/d0/4c1902363e4ca',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/5/70/4c190232ea25a',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/70/4c190232ea25a',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/00/4c0ff05470264',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/00/4c0ff05470264',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/70/4c0ff05194fdf',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/70/4c0ff05194fdf',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/f/70/4c0ff04e9fb5d',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/f/70/4c0ff04e9fb5d',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/00/4c0ff04b97e0a',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/00/4c0ff04b97e0a',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/20/4c0ff0489b061',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/20/4c0ff0489b061',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/30/4c0ff04593b4d',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/30/4c0ff04593b4d',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/a0/4c091bd7cf200',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/a0/4c091bd7cf200',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/e/90/4c091bd4abb2f',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/e/90/4c091bd4abb2f',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4c091bc4b0f36',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/c0/4c091bc4b0f36',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/60/4c091bc19b6e8',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/60/4c091bc19b6e8',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/b/f0/4c091bbe67a5a',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/f0/4c091bbe67a5a',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/a0/4c0919f34e580',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/a0/4c0919f34e580',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/2/80/4bfff6cd8a0b7',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/80/4bfff6cd8a0b7',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/2/30/4bfff6ca242dd',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/30/4bfff6ca242dd',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/e0/4bfff6c335001',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/e0/4bfff6c335001',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/5/70/4bfff6bfc63ca',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/70/4bfff6bfc63ca',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/90/4bfff5b67f042',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/90/4bfff5b67f042',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4bfff5b316a3a',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4bfff5b316a3a',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 4,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/39890/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/39890/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5144',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5144',
                     name: 'Kathryn Immonen',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8729',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8729',
                     name: 'Jelena Kevic Djurdjevic',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4430',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4430',
                     name: 'Jeff Youngquist',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/9580',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/9580',
                     name: 'Tonci Zonjic',
                     role: 'penciller',
                   },
@@ -2927,37 +2501,30 @@ export default class Service {
               },
               characters: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/39890/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/39890/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1010351',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010351',
                     name: 'Hellcat (Patsy Walker)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009477',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009477',
                     name: 'Nova',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009583',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009583',
                     name: 'She-Hulk (Jennifer Walters)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1010350',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1010350',
                     name: 'Valkyrie (Samantha Parrington)',
                   },
                 ],
@@ -2965,42 +2532,35 @@ export default class Service {
               },
               stories: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/39890/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/39890/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69309',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69309',
                     name: 'Interior #69309',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69311',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69311',
                     name: 'Interior #69311',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69313',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69313',
                     name: 'Interior #69313',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69315',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69315',
                     name: 'Interior #69315',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69317',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69317',
                     name: 'Interior #69317',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/90548',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/90548',
                     name: 'Heralds TPB',
                     type: 'cover',
                   },
@@ -3009,8 +2569,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/39890/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/39890/events',
                 items: [],
                 returned: 0,
               },
@@ -3080,37 +2639,31 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/30/4bacb718ce923',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/30/4bacb718ce923',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/30/4bacb718ce923',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/30/4bacb718ce923',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 3,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/30518/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/30518/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8901',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8901',
                     name: 'Kieron Gillen',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11309',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11309',
                     name: 'Mike Del Mundo',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10051',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10051',
                     name: 'Steven Sanders',
                     role: 'penciller',
                   },
@@ -3119,17 +2672,14 @@ export default class Service {
               },
               characters: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/30518/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/30518/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                 ],
@@ -3137,18 +2687,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/30518/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/30518/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69862',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69862',
                     name: 'S.W.O.R.D. (2009) #5',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/69863',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/69863',
                     name: 'Interior #69863',
                     type: 'interiorStory',
                   },
@@ -3157,8 +2704,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/30518/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/30518/events',
                 items: [],
                 returned: 0,
               },
@@ -3228,60 +2774,50 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5cb5f639cde08',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5cb5f639cde08',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5cb5f639cde08',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/c0/5cb5f639cde08',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4badc86ce225a',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/e/f0/4badc86ce225a',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26234/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26234/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8901',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8901',
                     name: 'Kieron Gillen',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/878',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/878',
                     name: 'Dave Lanphear',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/11309',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11309',
                     name: 'Mike Del Mundo',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10051',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10051',
                     name: 'Steven Sanders',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10279',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10279',
                     name: 'Matthew Wilson',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/469',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/469',
                     name: 'Craig Yeung',
                     role: 'inker',
                   },
@@ -3290,17 +2826,14 @@ export default class Service {
               },
               characters: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26234/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26234/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                 ],
@@ -3308,18 +2841,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26234/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26234/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57767',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57767',
                     name: 'S.W.O.R.D. (2009) #4',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57768',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57768',
                     name: 'Interior #57768',
                     type: 'interiorStory',
                   },
@@ -3328,8 +2858,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26234/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26234/events',
                 items: [],
                 returned: 0,
               },
@@ -3399,66 +2928,55 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/90/5cb5e82f2194d',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/90/5cb5e82f2194d',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/90/5cb5e82f2194d',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/90/5cb5e82f2194d',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/b/f0/4bae5e24f0c36',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/f0/4bae5e24f0c36',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 7,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26233/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26233/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8901',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8901',
                     name: 'Kieron Gillen',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/878',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/878',
                     name: 'Dave Lanphear',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4300',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
                     name: 'Nick Lowe',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10279',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10279',
                     name: 'Matthew Wilson',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10051',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10051',
                     name: 'Steven Sanders',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/469',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/469',
                     name: 'Craig Yeung',
                     role: 'inker',
                   },
@@ -3467,17 +2985,14 @@ export default class Service {
               },
               characters: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26233/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26233/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                 ],
@@ -3485,18 +3000,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26233/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26233/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57765',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57765',
                     name: 'S.W.O.R.D. (2009) #3',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57766',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57766',
                     name: 'Interior #57766',
                     type: 'interiorStory',
                   },
@@ -3505,8 +3017,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26233/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26233/events',
                 items: [],
                 returned: 0,
               },
@@ -3600,90 +3111,74 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/a/00/58f8cd8ae4641',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/a/00/58f8cd8ae4641',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/a/00/58f8cd8ae4641',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/a/00/58f8cd8ae4641',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/56e6e1f415b9b',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/56e6e1f415b9b',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/b/80/4bad1276bd00f',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/80/4bad1276bd00f',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/00/4bad1271149e6',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/00/4bad1271149e6',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/70/4bad126b31d17',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/70/4bad126b31d17',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/8/a0/4bad1262e1c73',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/8/a0/4bad1262e1c73',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bad125b01d5d',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/4bad125b01d5d',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4bad12537f433',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/5/e0/4bad12537f433',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24504/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24504/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4014',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4014',
                     name: 'Axel Alonso',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8504',
                     name: "Frank D'ARMATA",
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/676',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/676',
                     name: 'Warren Ellis',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/306',
                     name: 'Phil Jimenez',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/485',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/485',
                     name: 'Andy Lanning',
                     role: 'inker',
                   },
@@ -3692,47 +3187,38 @@ export default class Service {
               },
               characters: {
                 available: 8,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24504/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24504/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011298',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011298',
                     name: 'Armor (Hisako Ichiki)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009629',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009629',
                     name: 'Storm',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -3740,18 +3226,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24504/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24504/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/54041',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/54041',
                     name: 'ASTONISHING X-MEN (2004) #33',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/54042',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/54042',
                     name: 'Interior #54042',
                     type: 'interiorStory',
                   },
@@ -3760,8 +3243,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24504/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24504/events',
                 items: [],
                 returned: 0,
               },
@@ -3831,89 +3313,73 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/c/10/5cb5dfed01454',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/10/5cb5dfed01454',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/10/5cb5dfed01454',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/10/5cb5dfed01454',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bb3ce9e41786',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/c0/4bb3ce9e41786',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/7/10/4bad56482d978',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/7/10/4bad56482d978',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/c/40/4bad56419ed1e',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/c/40/4bad56419ed1e',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/b0/4bad563b87556',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/b0/4bad563b87556',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bad56345d870',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/6/60/4bad56345d870',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/e/d0/4bad562d0c8ad',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/e/d0/4bad562d0c8ad',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/90/4bad56259d9e0',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/90/4bad56259d9e0',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bad561b4892b',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/30/4bad561b4892b',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 5,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26232/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26232/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'inker',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/9437',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/9437',
                     name: 'Serge Lapointe',
                     role: 'inker',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8901',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8901',
                     name: 'Kieron Gillen',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/10051',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/10051',
                     name: 'Steven Sanders',
                     role: 'penciller',
                   },
@@ -3922,17 +3388,14 @@ export default class Service {
               },
               characters: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26232/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26232/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                 ],
@@ -3940,18 +3403,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26232/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26232/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57763',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57763',
                     name: 'S.W.O.R.D. (2009) #2',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/57764',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/57764',
                     name: 'Interior #57764',
                     type: 'interiorStory',
                   },
@@ -3960,8 +3420,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/26232/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/26232/events',
                 items: [],
                 returned: 0,
               },
@@ -4025,8 +3484,7 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/29976',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/29976',
                   name: 'Astonishing X-Men (2004) #32 (SHS VARIANT)',
                 },
               ],
@@ -4061,60 +3519,50 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58f8c7b0920ee',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58f8c7b0920ee',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58f8c7b0920ee',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/d0/58f8c7b0920ee',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4bb405574927c',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/3/70/4bb405574927c',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24503/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24503/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4014',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4014',
                     name: 'Axel Alonso',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/8504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/8504',
                     name: "Frank D'ARMATA",
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/676',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/676',
                     name: 'Warren Ellis',
                     role: 'writer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/306',
                     name: 'Phil Jimenez',
                     role: 'penciller',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/485',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/485',
                     name: 'Andy Lanning',
                     role: 'inker',
                   },
@@ -4123,42 +3571,34 @@ export default class Service {
               },
               characters: {
                 available: 7,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24503/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24503/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011298',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011298',
                     name: 'Armor (Hisako Ichiki)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009629',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009629',
                     name: 'Storm',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -4166,18 +3606,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24503/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24503/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/54039',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/54039',
                     name: 'ASTONISHING X-MEN (2004) #32',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/54040',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/54040',
                     name: 'Interior #54040',
                     type: 'interiorStory',
                   },
@@ -4186,8 +3623,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/24503/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/24503/events',
                 items: [],
                 returned: 0,
               },
@@ -4251,23 +3687,18 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/17354',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/17354',
                   name: 'Astonishing X-Men (2004) #24 (Variant)',
                 },
               ],
               collections: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/24514',
-                  name:
-                    'Astonishing X-Men by Joss Whedon & John Cassaday (Hardcover)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/24514',
+                  name: 'Astonishing X-Men by Joss Whedon & John Cassaday (Hardcover)',
                 },
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/21422',
-                  name:
-                    'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/21422',
+                  name: 'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
                 },
               ],
               collectedIssues: [],
@@ -4300,55 +3731,46 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/d/a0/56ddf78fe18f7',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/d/a0/56ddf78fe18f7',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/d/a0/56ddf78fe18f7',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/d/a0/56ddf78fe18f7',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/17353/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/17353/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4014',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4014',
                     name: 'Axel Alonso',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/452',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/452',
                     name: 'Virtual Calligr',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12581',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12581',
                     name: 'Chris Eliopoulos',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/799',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/799',
                     name: 'Joss Whedon',
                     role: 'writer',
                   },
@@ -4357,52 +3779,42 @@ export default class Service {
               },
               characters: {
                 available: 9,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/17353/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/17353/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009504',
                     name: 'Professor X',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -4410,18 +3822,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/17353/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/17353/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/36374',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/36374',
                     name: 'ASTONISHING X-MEN (2004) #24',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/36375',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/36375',
                     name: '6 of 6 - Unstoppable',
                     type: 'interiorStory',
                   },
@@ -4430,8 +3839,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/17353/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/17353/events',
                 items: [],
                 returned: 0,
               },
@@ -4495,17 +3903,14 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/16118',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/16118',
                   name: 'Astonishing X-Men (2004) #23 (Variant)',
                 },
               ],
               collections: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/21422',
-                  name:
-                    'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/21422',
+                  name: 'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
                 },
               ],
               collectedIssues: [],
@@ -4538,55 +3943,46 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/f/a0/56ddf732bd7be',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/f/a0/56ddf732bd7be',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/f/a0/56ddf732bd7be',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/f/a0/56ddf732bd7be',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/16119/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/16119/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4014',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4014',
                     name: 'Axel Alonso',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/452',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/452',
                     name: 'Virtual Calligr',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12581',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12581',
                     name: 'Chris Eliopoulos',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/799',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/799',
                     name: 'Joss Whedon',
                     role: 'writer',
                   },
@@ -4595,42 +3991,34 @@ export default class Service {
               },
               characters: {
                 available: 7,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/16119/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/16119/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -4638,18 +4026,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/16119/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/16119/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/32919',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/32919',
                     name: 'ASTONISHING X-MEN (2004) #23',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/32920',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/32920',
                     name: '5 of 6 - Unstoppable',
                     type: 'interiorStory',
                   },
@@ -4658,8 +4043,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/16119/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/16119/events',
                 items: [],
                 returned: 0,
               },
@@ -4723,17 +4107,14 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/6291',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/6291',
                   name: 'Astonishing X-Men (2004) #22 (Variant Cover)',
                 },
               ],
               collections: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/21422',
-                  name:
-                    'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/21422',
+                  name: 'Astonishing X-Men Vol. 4: Unstoppable (Trade Paperback)',
                 },
               ],
               collectedIssues: [],
@@ -4766,55 +4147,46 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/9/b0/56ddf654e2a82',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/b0/56ddf654e2a82',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/b0/56ddf654e2a82',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/b0/56ddf654e2a82',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 6,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6309/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6309/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4014',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4014',
                     name: 'Axel Alonso',
                     role: 'editor',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/452',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/452',
                     name: 'Virtual Calligr',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12581',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12581',
                     name: 'Chris Eliopoulos',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/799',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/799',
                     name: 'Joss Whedon',
                     role: 'writer',
                   },
@@ -4823,52 +4195,42 @@ export default class Service {
               },
               characters: {
                 available: 9,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6309/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6309/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009504',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009504',
                     name: 'Professor X',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -4876,18 +4238,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6309/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6309/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/8144',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/8144',
                     name: 'ASTONISHING X-MEN (2004) #22',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/8145',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/8145',
                     name: '4 of 6 - Unstoppable',
                     type: 'interiorStory',
                   },
@@ -4896,8 +4255,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6309/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6309/events',
                 items: [],
                 returned: 0,
               },
@@ -4971,49 +4329,41 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/a/40/4bb8846d89d2f',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/a/40/4bb8846d89d2f',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/a/40/4bb8846d89d2f',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/a/40/4bb8846d89d2f',
                   extension: 'jpg',
                 },
               ],
               creators: {
                 available: 5,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6120/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6120/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/452',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/452',
                     name: 'Virtual Calligr',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/12581',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/12581',
                     name: 'Chris Eliopoulos',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'penciller (cover)',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/799',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/799',
                     name: 'Joss Whedon',
                     role: 'writer',
                   },
@@ -5022,47 +4372,38 @@ export default class Service {
               },
               characters: {
                 available: 8,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6120/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6120/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011202',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011202',
                     name: 'Ord',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -5070,24 +4411,20 @@ export default class Service {
               },
               stories: {
                 available: 3,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6120/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6120/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/7670',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/7670',
                     name: 'ASTONISHING X-MEN (2004) #21',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/7671',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/7671',
                     name: '3 of 6 - Unstoppable',
                     type: 'interiorStory',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/8141',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/8141',
                     name: '3 of 6 - Unstoppable',
                     type: 'interiorStory',
                   },
@@ -5096,8 +4433,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/6120/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/6120/events',
                 items: [],
                 returned: 0,
               },
@@ -5140,8 +4476,7 @@ export default class Service {
               },
               variants: [
                 {
-                  resourceURI:
-                    'http://gateway.marvel.com/v1/public/comics/5417',
+                  resourceURI: 'http://gateway.marvel.com/v1/public/comics/5417',
                   name: 'Astonishing X-Men (2004) #19',
                 },
               ],
@@ -5164,37 +4499,31 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available',
                 extension: 'jpg',
               },
               images: [],
               creators: {
                 available: 4,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/5477/creators',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/5477/creators',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/5251',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
                     name: 'Vc Joe Caramagna',
                     role: 'letterer',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/162',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/162',
                     name: 'John Cassaday',
                     role: 'inker',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/4306',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4306',
                     name: 'Laura Martin',
                     role: 'colorist',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/creators/799',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/799',
                     name: 'Joss Whedon',
                     role: 'writer',
                   },
@@ -5203,52 +4532,42 @@ export default class Service {
               },
               characters: {
                 available: 9,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/5477/characters',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/5477/characters',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011297',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011297',
                     name: 'Agent Brand',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009175',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009175',
                     name: 'Beast',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009243',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009243',
                     name: 'Colossus',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009257',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009257',
                     name: 'Cyclops',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009310',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009310',
                     name: 'Emma Frost',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009508',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009508',
                     name: 'Kitty Pryde',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1011202',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1011202',
                     name: 'Ord',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009718',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009718',
                     name: 'Wolverine',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/characters/1009726',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/characters/1009726',
                     name: 'X-Men',
                   },
                 ],
@@ -5256,18 +4575,15 @@ export default class Service {
               },
               stories: {
                 available: 2,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/5477/stories',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/5477/stories',
                 items: [
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/3352',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/3352',
                     name: 'Cover #3352',
                     type: 'cover',
                   },
                   {
-                    resourceURI:
-                      'http://gateway.marvel.com/v1/public/stories/3353',
+                    resourceURI: 'http://gateway.marvel.com/v1/public/stories/3353',
                     name: 'Interior #3353',
                     type: 'interiorStory',
                   },
@@ -5276,8 +4592,7 @@ export default class Service {
               },
               events: {
                 available: 0,
-                collectionURI:
-                  'http://gateway.marvel.com/v1/public/comics/5477/events',
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/5477/events',
                 items: [],
                 returned: 0,
               },
@@ -5300,8 +4615,7 @@ export default class Service {
         status: 'Ok',
         copyright: '© 2020 MARVEL',
         attributionText: 'Data provided by Marvel. © 2020 MARVEL',
-        attributionHTML:
-          '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
+        attributionHTML: '<a href="http://marvel.com">Data provided by Marvel. © 2020 MARVEL</a>',
         etag: 'a598e3bc79cb002acb5b949475c8e63e745f3c0c',
         data: {
           offset: 0,
@@ -5392,28 +4706,67 @@ export default class Service {
                 },
               ],
               thumbnail: {
-                path:
-                  'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
+                path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
                 extension: 'jpg',
               },
               images: [
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/2/d0/5ce401142935b',
                   extension: 'jpg',
                 },
                 {
-                  path:
-                    'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/5c76cb249a7e3',
+                  path: 'http://i.annihil.us/u/prod/marvel/i/mg/9/a0/5c76cb249a7e3',
                   extension: 'jpg',
                 },
               ],
+              creators: {
+                available: 7,
+                collectionURI: 'http://gateway.marvel.com/v1/public/comics/70718/creators',
+                items: [
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/13162',
+                    name: 'Erick Arciniega',
+                    role: 'colorist',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/5251',
+                    name: 'Vc Joe Caramagna',
+                    role: 'letterer',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/430',
+                    name: 'Edgar Delgado',
+                    role: 'colorist (cover)',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/4300',
+                    name: 'Nick Lowe',
+                    role: 'editor',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/447',
+                    name: 'Victor Olazaba',
+                    role: 'inker',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/72',
+                    name: 'Humberto Ramos',
+                    role: 'penciler (cover)',
+                  },
+                  {
+                    resourceURI: 'http://gateway.marvel.com/v1/public/creators/11434',
+                    name: 'Nick Spencer',
+                    role: 'writer',
+                  },
+                ],
+                returned: 7,
+              },
             },
           ],
         },
       },
     };
 
-    return res && res.status === 200 ? res.data.data.results : [];
+    return res && res.status === 200 && res.data.data.results.length > 0 ? res.data.data.results[0] : {};
   };
 }
