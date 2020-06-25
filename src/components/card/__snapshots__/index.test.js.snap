@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card />  It should render with the modal 1`] = `
+<div>
+  <card
+    data-testid="card"
+    url="path/portrait_incredible.jpg"
+  >
+    <textwrapper>
+      <text>
+        spider-man
+      </text>
+    </textwrapper>
+  </card>
+  <modal
+    data-testid="modal"
+    title="spider-man"
+  >
+    <comicscontainer>
+      <comic
+        comic="[object Object]"
+      />
+      <comic
+        comic="[object Object]"
+      />
+    </comicscontainer>
+  </modal>
+</div>
+`;
+
+exports[`<Card />  It should render without the modal 1`] = `
+<div>
+  <card
+    data-testid="card"
+    url="path/portrait_incredible.jpg"
+  >
+    <textwrapper>
+      <text>
+        spider-man
+      </text>
+    </textwrapper>
+  </card>
+</div>
+`;

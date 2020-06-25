@@ -22,6 +22,7 @@ export default ({ character }) => {
   return (
     <>
       <Card
+        data-testid="card"
         onClick={getComics}
         url={`${character.thumbnail.path}/portrait_incredible.${character.thumbnail.extension}`}
       >
@@ -30,7 +31,7 @@ export default ({ character }) => {
         </TextWrapper>
       </Card>
       {showModal && comics && (
-        <Modal title={character.name} onClose={handleModalClose}>
+        <Modal title={character.name} onClose={handleModalClose} data-testid="modal">
           <ComicsContainer>
             {comics.map((comic) => (
               <Comic comic={comic} key={comic.id} />
