@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal />  It should render OK 1`] = `
+<div>
+  <modalcontainer>
+    <modal>
+      <closecontainer>
+        <close
+          data-testid="close"
+        />
+      </closecontainer>
+      <h1>
+        Title
+      </h1>
+      <h2>
+        Children
+      </h2>
+    </modal>
+  </modalcontainer>
+</div>
+`;

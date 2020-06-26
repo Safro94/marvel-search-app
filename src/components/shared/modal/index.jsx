@@ -9,7 +9,7 @@ export default ({ children, title, onClose }) => {
     <ModalContainer>
       <Modal>
         <CloseContainer>
-          <Close onClick={handleClose} />
+          <Close onClick={handleClose} data-testid="close" />
         </CloseContainer>
         <H1>{title}</H1>
         {children}

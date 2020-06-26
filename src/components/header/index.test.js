@@ -18,7 +18,6 @@ jest.mock('./style', () => {
 describe('<Header /> ', () => {
   beforeEach(() => (history.length = 0));
   const history = [];
-  //   const history = createMemoryHistory();
 
   it('It should render OK', async () => {
     // Act
