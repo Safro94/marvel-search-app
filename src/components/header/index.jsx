@@ -12,7 +12,7 @@ export default withRouter(({ history }) => {
   return (
     <Header>
       <ImageContainer>
-        <Image src="/marvel.jpg" width="60px" height="30px" cursor="pointer" onClick={goHome} />
+        <Image src="/marvel.jpg" width="60px" height="30px" cursor="pointer" onClick={goHome} data-testid="image" />
         <Separator />
       </ImageContainer>
       <Search />

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Comic />  It should render with a description 1`] = `
+<div>
+  <comic>
+    <image
+      url="path/standard_medium.jpg"
+    />
+    <information>
+      <title>
+        Spider-man
+      </title>
+    </information>
+  </comic>
+</div>
+`;
+
+exports[`<Comic />  It should render without a description 1`] = `
+<div>
+  <comic>
+    <image
+      url="path/standard_medium.jpg"
+    />
+    <information>
+      <title>
+        Spider-man
+      </title>
+      <text>
+        <h1>
+          Lorem ipsum dolor sit amet consectetur,
+        </h1>
+        ...
+      </text>
+    </information>
+  </comic>
+</div>
+`;

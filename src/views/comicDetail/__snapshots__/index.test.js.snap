@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ComicDetail />  It should render a comic if we pass an Id 1`] = `
+<div>
+  <wrapper>
+    <imagecontainer>
+      <image
+        src="path/portrait_uncanny.jpg"
+      />
+    </imagecontainer>
+    <informationcontainer>
+      <h1>
+        Spider-man
+      </h1>
+      <creatorsinformation>
+        <h4>
+          Writter: Stan Lee
+        </h4>
+        <h4>
+          Producer: Some name
+        </h4>
+      </creatorsinformation>
+      <paragraph>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro quibusdam nisi voluptates recusandae nesciunt quis possimus exercitationem pariatur? Officia vero voluptatem sint tempora magni ullam repudiandae fugit architecto illum molestiae!
+      </paragraph>
+    </informationcontainer>
+  </wrapper>
+</div>
+`;
+
+exports[`<ComicDetail />  It should render a text if there is no Id given 1`] = `
+<div>
+  <h1>
+    No se han encontrado resultados
+  </h1>
+</div>
+`;

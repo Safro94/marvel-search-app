@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header />  It should render OK 1`] = `
+<div>
+  <header>
+    <imagecontainer>
+      <image
+        cursor="pointer"
+        data-testid="image"
+        height="30px"
+        src="/marvel.jpg"
+        width="60px"
+      />
+      <separator />
+    </imagecontainer>
+    <search />
+  </header>
+</div>
+`;

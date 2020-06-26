@@ -1,9 +1,8 @@
+/* eslint-disable import/first */
 import React from 'react';
 import { render, wait, waitForElement, fireEvent } from '@testing-library/react';
 
 import Card from './';
-import Service from '../../services/service';
-import { act } from 'react-dom/test-utils';
 
 jest.mock('../../services/service', () => {
   return {
@@ -12,6 +11,7 @@ jest.mock('../../services/service', () => {
     }),
   };
 });
+import Service from '../../services/service';
 
 jest.mock('../comic', () => 'comic');
 jest.mock('../shared/modal', () => 'modal');

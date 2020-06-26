@@ -30,9 +30,7 @@ export default withRouter(({ history }) => {
     const searchTerm = e.target.value.toLowerCase();
     const regex = /https:\/\/www\.marvel\.com.*/;
 
-    searchTerm.match(regex)
-      ? seeComicDetail(searchTerm)
-      : await searchCharacters(searchTerm);
+    searchTerm.match(regex) ? seeComicDetail(searchTerm) : await searchCharacters(searchTerm);
   };
 
   return <Input onBlur={filterCharacters} placeholder="Buscar" />;
