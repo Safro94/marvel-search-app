@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home />  It should render OK 1`] = `
+<div>
+  <wrapper />
+</div>
+`;
+
+exports[`<Home />  It should render a text 1`] = `
+<div>
+  <wrapper>
+    <h1>
+      No hay items
+    </h1>
+  </wrapper>
+</div>
+`;
