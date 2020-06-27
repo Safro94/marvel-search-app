@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App />  It should render a comic if we pass an Id 1`] = `
+<div>
+  <layout />
+</div>
+`;

@@ -34,6 +34,7 @@ const Information = styled.div`
 
 const Title = styled.h4`
   font-size: 12px;
+  color: ${({ theme: { textColor } }) => textColor};
 
   @media ${device.tablet} {
     font-size: 1rem;
@@ -43,6 +44,7 @@ const Title = styled.h4`
 const Text = styled.p`
   text-overflow: ellipsis;
   font-size: 9px;
+  color: ${({ theme: { textColor } }) => textColor};
 
   @media ${device.tablet} {
     font-size: 11px;

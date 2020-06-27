@@ -2,43 +2,57 @@
 
 exports[`<Card />  It should render with the modal 1`] = `
 <div>
-  <card
-    data-testid="card"
-    url="path/portrait_incredible.jpg"
-  >
-    <textwrapper>
-      <text>
-        spider-man
-      </text>
-    </textwrapper>
-  </card>
-  <modal
-    data-testid="modal"
-    title="spider-man"
-  >
-    <comicscontainer>
-      <comic
-        comic="[object Object]"
+  <wrapper>
+    <starcontainer>
+      <star
+        data-testid="star"
       />
-      <comic
-        comic="[object Object]"
-      />
-    </comicscontainer>
-  </modal>
+    </starcontainer>
+    <card
+      data-testid="card"
+      url="path/portrait_incredible.jpg"
+    >
+      <textwrapper>
+        <text>
+          spider-man
+        </text>
+      </textwrapper>
+    </card>
+    <modal
+      data-testid="modal"
+      title="spider-man"
+    >
+      <comicscontainer>
+        <comic
+          comic="[object Object]"
+        />
+        <comic
+          comic="[object Object]"
+        />
+      </comicscontainer>
+    </modal>
+  </wrapper>
 </div>
 `;
 
 exports[`<Card />  It should render without the modal 1`] = `
 <div>
-  <card
-    data-testid="card"
-    url="path/portrait_incredible.jpg"
-  >
-    <textwrapper>
-      <text>
-        spider-man
-      </text>
-    </textwrapper>
-  </card>
+  <wrapper>
+    <starcontainer>
+      <star
+        data-testid="star"
+      />
+    </starcontainer>
+    <card
+      data-testid="card"
+      url="path/portrait_incredible.jpg"
+    >
+      <textwrapper>
+        <text>
+          spider-man
+        </text>
+      </textwrapper>
+    </card>
+  </wrapper>
 </div>
 `;

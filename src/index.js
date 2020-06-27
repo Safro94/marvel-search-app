@@ -3,22 +3,21 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 import { ApplicationProvider } from './hooks/application';
-
-import { createBrowserHistory } from 'history';
+import { FavouritesProvider } from './hooks/favourites';
 
 import App from './components/app';
 
 import './index.css';
 
-const history = createBrowserHistory();
-
 ReactDOM.render(
   <React.StrictMode>
-    <ApplicationProvider>
-      <BrowserRouter history={history}>
-        <App />
-      </BrowserRouter>
-    </ApplicationProvider>
+    <FavouritesProvider>
+      <ApplicationProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </ApplicationProvider>
+    </FavouritesProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

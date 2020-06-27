@@ -1,10 +1,15 @@
 import styled from 'styled-components';
+import { device } from '../../helpers/device';
 
 const Header = styled.div`
   display: grid;
-  grid-template-columns: 100px 2fr 0.5fr;
+  grid-template-columns: 80px 1fr 0.5fr;
   background: ${({ theme: { secondaryColor } }) => secondaryColor};
   border-bottom: 1px solid #eee;
+
+  @media ${device.tablet} {
+    grid-template-columns: 100px 2fr 0.5fr;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -23,4 +28,9 @@ const Separator = styled.div`
   height: 70%;
 `;
 
-export { Header, ImageContainer, Separator };
+const FavouriteContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+export { Header, ImageContainer, Separator, FavouriteContainer };

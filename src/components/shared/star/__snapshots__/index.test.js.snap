@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Star />  It should render a FullStar if showFullStar is true 1`] = `
+<div>
+  <fullstar
+    data-testid="full-star"
+  >
+    <fullstaricon />
+  </fullstar>
+</div>
+`;
+
+exports[`<Star />  It should render a Star if showFullStar is false 1`] = `
+<div>
+  <star
+    data-testid="star"
+  >
+    <staricon />
+  </star>
+</div>
+`;

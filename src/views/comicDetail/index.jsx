@@ -43,9 +43,7 @@ const ComicDetail = ({
             <Paragraph>{comic.description}</Paragraph>
           </InformationContainer>
         </Wrapper>
-      ) : (
-        <H1>No se han encontrado resultados</H1>
-      )}
+      ) : null}
     </>
   );
 };

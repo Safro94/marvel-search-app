@@ -1,3 +1,4 @@
+/* eslint-disable import/first */
 import React from 'react';
 
 import { render, wait, waitForElement, fireEvent } from '@testing-library/react';
@@ -6,14 +7,23 @@ import Header from './';
 
 jest.mock('../../components/shared/image', () => 'image');
 jest.mock('./search', () => 'search');
+jest.mock('../favourites', () => 'favourites');
+jest.mock('../theme', () => 'theme');
 
 jest.mock('./style', () => {
   return {
     Header: 'header',
     ImageContainer: 'imageContainer',
     Separator: 'separator',
+    FavouriteContainer: 'FavouriteContainer',
   };
 });
+
+jest.mock('../../hooks/application', () => ({
+  useApplication: jest.fn(() => ({
+    setApplication: jest.fn(),
+  })),
+}));
 
 describe('<Header /> ', () => {
   beforeEach(() => (history.length = 0));

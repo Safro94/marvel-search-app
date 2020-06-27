@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Search />  It should render OK 1`] = `
+<div>
+  <input
+    data-testid="input"
+    placeholder="Buscar"
+  />
+</div>
+`;

@@ -31,12 +31,16 @@ const CreatorsInformation = styled.div`
 const H1 = styled.h1`
   text-align: center;
   margin-bottom: 20px;
+  color: ${({ theme: { textColor } }) => textColor};
 `;
 
 const H4 = styled.h4`
   text-align: center;
+  color: ${({ theme: { textColor } }) => textColor};
 `;
 
-const Paragraph = styled.p``;
+const Paragraph = styled.p`
+  color: ${({ theme: { textColor } }) => textColor};
+`;
 
 export { Wrapper, ImageContainer, H1, InformationContainer, H4, Paragraph, CreatorsInformation };

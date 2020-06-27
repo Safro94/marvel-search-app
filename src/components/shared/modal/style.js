@@ -21,7 +21,7 @@ const Modal = styled.div`
   height: 100%;
   padding: 20px;
   position: relative;
-  background: ${({ theme: { secondaryColor } }) => secondaryColor};
+  background: ${({ theme: { primaryColor } }) => primaryColor};
   overflow-y: scroll;
 
   &::-webkit-scrollbar {
@@ -43,12 +43,14 @@ const Modal = styled.div`
     width: 450px;
     max-height: 450px;
     border-radius: 10px;
+    border: 1px solid ${({ theme: { textColor } }) => textColor};
   }
 `;
 
 const H1 = styled.h1`
   font-size: 1.5em;
   margin: 10px 0;
+  color: ${({ theme: { textColor } }) => textColor};
 `;
 
 const CloseContainer = styled.div`

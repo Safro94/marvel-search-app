@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
+const Wrapper = styled.div`
+  position: relative;
+`;
+
 const Card = styled.div`
-  background: url('${({ url }) => url}');
+  background: url('${({ url }) => url}') no-repeat center center;
   background-size: cover;
   position: relative;
   height: 300px;
@@ -26,4 +30,12 @@ const ComicsContainer = styled.div`
   grid-gap: 15px 0;
 `;
 
-export { Card, TextWrapper, Text, ComicsContainer };
+const StarContainer = styled.div`
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  z-index: 10;
+`;
+
+export { Card, TextWrapper, Text, ComicsContainer, StarContainer, Wrapper };

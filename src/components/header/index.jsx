@@ -1,13 +1,22 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 
+import { useApplication, SHOW_FAVOURITES } from '../../hooks/application';
+
 import Image from '../shared/image';
 import Search from './search';
+import Favourite from '../favourites';
+import Theme from '../theme';
 
-import { Header, ImageContainer, Separator } from './style';
+import { Header, ImageContainer, Separator, FavouriteContainer } from './style';
 
 export default withRouter(({ history }) => {
-  const goHome = () => history.push('/');
+  const { setApplication } = useApplication();
+
+  const goHome = () => {
+    setApplication({ type: SHOW_FAVOURITES, value: false });
+    history.push('/');
+  };
 
   return (
     <Header>
@@ -16,6 +25,10 @@ export default withRouter(({ history }) => {
         <Separator />
       </ImageContainer>
       <Search />
+      <FavouriteContainer>
+        <Favourite />
+        <Theme />
+      </FavouriteContainer>
     </Header>
   );
 });

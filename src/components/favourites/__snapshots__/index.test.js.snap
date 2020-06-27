@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Favourites />  It should render OK 1`] = `
+<div>
+  <star
+    data-testid="star"
+  />
+</div>
+`;

@@ -7,7 +7,7 @@ export default styled.div`
   max-width: 100%;
   border: 1px solid #eee;
   border-bottom: 0;
-  background: ${(props) => props.theme.primaryColor};
+  background: ${({ theme: { primaryColor } }) => primaryColor};
 
   @media ${device.desktop} {
     max-width: 1400px;

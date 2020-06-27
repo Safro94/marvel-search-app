@@ -27,11 +27,3 @@ exports[`<ComicDetail />  It should render a comic if we pass an Id 1`] = `
   </wrapper>
 </div>
 `;
-
-exports[`<ComicDetail />  It should render a text if there is no Id given 1`] = `
-<div>
-  <h1>
-    No se han encontrado resultados
-  </h1>
-</div>
-`;

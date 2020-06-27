@@ -42,15 +42,6 @@ describe('<ComicDetail /> ', () => {
   beforeEach(() => jest.clearAllMocks());
   const id = 30;
 
-  it('It should render a text if there is no Id given', async () => {
-    // Act
-    const { container } = render(<ComicDetail.WrappedComponent match={{ params: {} }} />);
-    await wait();
-
-    // Assert
-    expect(container).toMatchSnapshot();
-  });
-
   it('It should render a comic if we pass an Id', async () => {
     // Act
     const { container } = render(<ComicDetail.WrappedComponent match={{ params: { id: id } }} />);

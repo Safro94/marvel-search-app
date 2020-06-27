@@ -3,19 +3,28 @@ import { render, wait } from '@testing-library/react';
 
 import App from './';
 
-jest.mock('../../views/layout', () => 'layout');
-jest.mock('../../helpers/theme', () => 'theme');
+jest.mock('../../helpers/theme', () => ({
+  light: {},
+  dark: {},
+}));
+
+jest.mock('./style', () => {
+  return {
+    Select: 'select',
+  };
+});
 
 jest.mock('../../hooks/application', () => ({
   useApplication: jest.fn(() => ({
     theme: { light: {} },
+    setApplication: jest.fn(),
   })),
 }));
 
 describe('<App /> ', () => {
   beforeEach(() => jest.clearAllMocks());
 
-  it('It should render a comic if we pass an Id', async () => {
+  it('It should render OK', async () => {
     // Act
     const { container } = render(<App />);
     await wait();
