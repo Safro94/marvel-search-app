@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../../../helpers/device';
 
 export default styled.div`
   width: 100%;
@@ -8,8 +7,4 @@ export default styled.div`
   border: 1px solid #eee;
   border-bottom: 0;
   background: ${({ theme: { primaryColor } }) => primaryColor};
-
-  @media ${device.desktop} {
-    max-width: 1400px;
-  }
 `;
